@@ -1,3 +1,8 @@
+---
+type: tangibles
+courses: { compsci: {week: 1} }
+---
+
 # Chinese Foods API
 <html>
     <input type="text" id="searchBox" placeholder="Enter a Chinese Food">

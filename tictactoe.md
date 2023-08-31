@@ -1,3 +1,8 @@
+---
+type: tangibles
+courses: { compsci: {week: 1} }
+---
+
 # Tic Tac Toe
 <style>
     .canvas-container{

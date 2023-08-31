@@ -5,6 +5,8 @@ permalink: /frontend/snake
 image: /images/snake.png
 categories: [C4.9]
 tags: [javascript]
+type: tangibles
+courses: { compsci: {week: 2} }
 ---
 
 

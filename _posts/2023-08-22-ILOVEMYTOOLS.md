@@ -4,7 +4,7 @@ comments: true
 layout: post
 title: I love my tools 
 description: Mi amor
-courses: { csa: {week: 0} }
+courses: { compsci: {week: 0} }
 type: hacks
 ---
 
