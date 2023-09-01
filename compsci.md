@@ -1,6 +1,6 @@
 ---
 layout: schedule
-title: Computer Science Lab Notebook
+title: Kaiden's Time Box
 units: "1,2"
 course: compsci
 ---
