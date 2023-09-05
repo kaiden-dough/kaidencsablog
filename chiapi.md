@@ -8,8 +8,10 @@ courses: { compsci: {week: 1} }
     <input type="text" id="searchBox" placeholder="Enter a Chinese Food">
     <button onclick="search()">Enter</button>
     <div id="container"></div>
+    <p id="results"></p>
 </html>
 <script>
+    document.getElementById("container").innerHTML = ""
     let results = []
     async function fetchData() {
         const url = 'https://chinese-food-db.p.rapidapi.com/';
@@ -24,6 +26,7 @@ courses: { compsci: {week: 1} }
             const response = await fetch(url, options);
             const result = await response.text();
             results = JSON.parse(result)
+            tableMake(results)
             // console.log(result);
         } catch (error) {
             console.error(error);
@@ -34,7 +37,13 @@ courses: { compsci: {week: 1} }
         const searchText = document.getElementById("searchBox").value;
         const searchResults = results.filter(item => item.title.toLowerCase().includes(searchText.toLowerCase()));
         console.log("Search results:", searchResults);
-        tableMake(searchResults)
+        if (searchResults.length === 0) {
+            console.log("No results found.");
+            document.getElementById("container").innerHTML = "No Results"
+        } else {
+            document.getElementById("container").innerHTML = ""
+            tableMake(searchResults);
+        }
     }
     function tableMake(searchResults){
         console.log("se")
