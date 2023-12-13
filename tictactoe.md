@@ -393,3 +393,4 @@ courses: { compsci: {week: 1} }
     }
     drawBoard()
 </script>
+<!-- yurr -->
