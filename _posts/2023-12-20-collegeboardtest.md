@@ -8,6 +8,7 @@ type: tangibles
 ---
 
 ### SCORE:
+![image](https://github.com/nighthawkcoders/teacher_portfolio/assets/69410126/10c61b7b-8519-49ca-b0ff-ff231021ac70)
 ![image](https://github.com/CSA-Tri-2/JDK-miniproject/assets/69410126/8c46ab1b-8ad8-48ca-9be5-a6fcd695f363)
 On this college board test, the score that I got was a 35/39. AYY AYY. That I believe is a terrific score and I think that would be a 5 on the CSA test, excluding the code part.
 ### Corrections:
