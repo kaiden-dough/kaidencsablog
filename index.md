@@ -26,7 +26,7 @@ Board
     <button onclick="minus()">-</button>
     <type id="dsize">3</type>
     <button onclick="add()">+</button>
-    <canvas id="Board" width="700" height="700" style="border:3px solid #548BC2;" onmousemove="coordinate(event)" onmousedown="mousedown()" onmouseup="mouseup()"></canvas>
+        
 </body>
 </details>
 </html>
